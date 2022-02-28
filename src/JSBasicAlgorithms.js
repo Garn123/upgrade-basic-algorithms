@@ -22,9 +22,25 @@ const precio = toy1['price'] + toy2['price'];
 console.log(precio);
 
 
-let globalBasePrice = 25000;
-const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: car1['baseprice'] + globalBasePrice};
-const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: car2['baseprice'] + globalBasePrice};
+let globalBasePrice = 10000;
+const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
+const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
 
-console.log(car1['finalPrice'], car2['finalPrice'])
+//Iteration#3
 
+let multiplication = 10 * 5;
+alert(multiplication);
+
+let division = 10 / 2;
+alert(division);
+
+let resto = 15 % 9;
+alert(resto);
+
+let y = 10;
+let z = 5;
+let x = y + z;
+
+let a = 10;
+let b = 5;
+let c = a * b;
