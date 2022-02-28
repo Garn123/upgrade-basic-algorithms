@@ -1,17 +1,17 @@
 //Iteration#1
 
-let myFavoriteHero = "Hulk";
+/* let myFavoriteHero = "Hulk";
 let x = 50;
 let h = 5, y = 10;
-let z = h + y;
+let z = h + y; */
 
 //Iteration#2
 
-const character = {name: 'Jack Sparrow', age: 25};
+/* const character = {name: 'Jack Sparrow', age: 25};
 
 let firstName = "Jon";
 let lastName = "Snow";
-let age = 24;
+let age = 24; 
 
 console.log(`Soy ${firstName} ${lastName}, tengo ${age} y me gustan los lobos.`);
 
@@ -25,10 +25,10 @@ console.log(precio);
 let globalBasePrice = 10000;
 const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
 const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
-
+*/
 //Iteration#3
 
-let multiplication = 10 * 5;
+/* let multiplication = 10 * 5;
 alert(multiplication);
 
 let division = 10 / 2;
@@ -43,4 +43,22 @@ let x = y + z;
 
 let a = 10;
 let b = 5;
-let c = a * b;
+let c = a * b; */
+
+//Iteration#4
+
+/* const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers[0]) */
+
+/* const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+avengers.splice(0, 1, 'IRONMAN');
+console.log(avengers); */
+
+/* const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers.length) */
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+rickAndMortyCharacters.push("Morty", "Summer");
+console.log(rickAndMortyCharacters[4]);
+
+
